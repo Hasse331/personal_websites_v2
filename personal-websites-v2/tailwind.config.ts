@@ -8,13 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      textShadow: {
+        xl: "2px 2px 4px rgba(0, 0, 0, 0.25)",
+        "2xl": "4px 4px 8px rgba(0, 0, 0, 0.25)",
+        sm: "1px 1px 2px rgba(0, 0, 0, 0.25)",
+        md: "2px 2px 3px rgba(0, 0, 0, 0.25)",
+        lg: "3px 3px 5px rgba(0, 0, 0, 0.25)",
+        inner: "inset 2px 2px 4px rgba(0, 0, 0, 0.25)",
+        white: "2px 2px 4px rgba(255, 255, 255, 0.5)",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "custom-radial":
+          "radial-gradient(circle at 125% 10%, var(--tw-gradient-stops))",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-textshadow")],
 };
 export default config;
