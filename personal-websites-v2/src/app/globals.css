@@ -49,3 +49,10 @@ h5,
 h6 {
   @apply font-bold text-center text-gray-300 m-1.5 text-shadow-xl;
 }
+
+button {
+  @apply bg-blue-500 text-white font-semibold px-4 border border-blue-700 rounded shadow;
+  @apply hover:bg-blue-700 hover:border-blue-800;
+  @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50;
+  @apply active:bg-blue-800 active:border-blue-900;
+}
