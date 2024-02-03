@@ -13,9 +13,9 @@ export default function PageBlock({
     <div className="p-4">
       {" "}
       {/* Removed width classes */}
-      <h3 className="text-2xl font-bold mb-4">{title}</h3>
+      <div className="bg-gray-800 shadow-xl h-48 w-full mb-4 mt-5"></div>{" "}
+      <h3 className="text-2xl font-bold mb-2">{title}</h3>
       <p className="mb-4">{textContent}</p>
-      <div className="bg-gray-200 h-48 w-full mb-4"></div>{" "}
       {/* Image placeholder */}
       {btn && (
         <Link href={btn.href} passHref>

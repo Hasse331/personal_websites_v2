@@ -27,7 +27,7 @@ const Index: React.FC = () => {
         <PageBlock title={expAndProjTitle} textContent={expAndProjectsText} />
         <PageBlock title={collabTitle} textContent={collabText} />
       </div>
-      <div className="flex flex-col md:flex-row">
+      <div className="grid md:grid-cols-2">
         <PageBlock title={devOpsTitle} textContent={devOpsText} />
         <PageBlock title={techStackTitle} textContent={techStackText} />
       </div>
