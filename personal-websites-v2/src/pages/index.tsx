@@ -22,18 +22,28 @@ const certificatesTitle = `Certificates`;
 const socialsTitle = `Social Accounts`;
 
 // Buttons
+const techStackButton = { href: "/techStach", text: "Full tech stack" };
+const expAndProjButton = { href: "/projects", text: "Full portfolio" };
 
 const Index: React.FC = () => {
   return (
     <div className="max-w-6xl mx-auto py-4 px-2 sm:px-4">
       <PageBlock title={IntroductionTitle} textContent={IntroductionText} />
-      <div className="grid md:grid-cols-2 ">
-        <PageBlock title={expAndProjTitle} textContent={expAndProjectsText} />
-        <PageBlock title={collabTitle} textContent={collabText} />
+      <div className="grid md:grid-cols-2">
+        <PageBlock
+          title={expAndProjTitle}
+          textContent={expAndProjectsText}
+          btn={expAndProjButton}
+        />
+        <PageBlock
+          title={techStackTitle}
+          textContent={techStackText}
+          btn={techStackButton}
+        />
       </div>
       <div className="grid md:grid-cols-2">
+        <PageBlock title={collabTitle} textContent={collabText} />
         <PageBlock title={devOpsTitle} textContent={devOpsText} />
-        <PageBlock title={techStackTitle} textContent={techStackText} />
       </div>
       <div className="grid md:grid-cols-2">
         <PageBlock title={certificatesTitle} textContent={certificatesText} />
