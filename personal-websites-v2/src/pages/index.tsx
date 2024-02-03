@@ -1,5 +1,4 @@
-import PageBlock from "@/components/index/pageBlock";
-import Introduction from "@/components/index/introduction";
+import PageBlock from "@/components/pageBlock";
 import React from "react";
 
 // text cont imports:
@@ -12,23 +11,25 @@ import {
 } from "@/textContents/indexTextContents";
 
 // Titles:
-
+const IntroductionTitle = `Welcome - about me`;
 const expAndProjTitle = `Practical Experience & Projects Portfolio`;
 const collabTitle = `Communication & Collaboration`;
-const DevOps = `DevOps`;
-const techStack = `Tech Stack`;
+const devOpsTitle = `DevOps`;
+const techStackTitle = `Tech Stack`;
+
+// Buttons
 
 const Index: React.FC = () => {
   return (
-    <div className="max-w-6xl mx-auto py-8 px-4">
-      <Introduction textContent={IntroductionText} />
-      <div className="flex">
+    <div className="max-w-6xl mx-auto py-4 px-2 sm:px-4">
+      <PageBlock title={IntroductionTitle} textContent={IntroductionText} />
+      <div className="grid md:grid-cols-2 ">
         <PageBlock title={expAndProjTitle} textContent={expAndProjectsText} />
         <PageBlock title={collabTitle} textContent={collabText} />
       </div>
-      <div className="flex">
-        <PageBlock title={DevOps} textContent={devOpsText} />
-        <PageBlock title={techStack} textContent={techStackText} />
+      <div className="flex flex-col md:flex-row">
+        <PageBlock title={devOpsTitle} textContent={devOpsText} />
+        <PageBlock title={techStackTitle} textContent={techStackText} />
       </div>
     </div>
   );
