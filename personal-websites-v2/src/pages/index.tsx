@@ -22,8 +22,8 @@ const certificatesTitle = `Certificates`;
 const socialsTitle = `Social Accounts`;
 
 // Buttons
-const techStackButton = { href: "/techStach", text: "Full tech stack" };
-const expAndProjButton = { href: "/projects", text: "Full portfolio" };
+const techStackButton = { href: "/techStack", text: "Full tech stack" };
+const expAndProjButton = { href: "/portfolio", text: "Full portfolio" };
 
 const Index: React.FC = () => {
   return (

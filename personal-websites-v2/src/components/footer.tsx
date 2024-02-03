@@ -8,7 +8,7 @@ const Footer = () => {
           <Link href="/" passHref>
             <p className="hover:text-blue-300 transition duration-300">Home</p>
           </Link>
-          <Link href="/stack" passHref>
+          <Link href="/techStack" passHref>
             <p className="hover:text-blue-300 transition duration-300">Stack</p>
           </Link>
           <Link href="/portfolio" passHref>
