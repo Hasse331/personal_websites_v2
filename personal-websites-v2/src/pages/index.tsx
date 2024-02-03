@@ -8,6 +8,8 @@ import {
   collabText,
   devOpsText,
   techStackText,
+  certificatesText,
+  socialsText,
 } from "@/textContents/indexTextContents";
 
 // Titles:
@@ -34,8 +36,8 @@ const Index: React.FC = () => {
         <PageBlock title={techStackTitle} textContent={techStackText} />
       </div>
       <div className="grid md:grid-cols-2">
-        <PageBlock title={certificatesTitle} textContent={devOpsText} />
-        <PageBlock title={socialsTitle} textContent={techStackText} />
+        <PageBlock title={certificatesTitle} textContent={certificatesText} />
+        <PageBlock title={socialsTitle} textContent={socialsText} />
       </div>
     </div>
   );
