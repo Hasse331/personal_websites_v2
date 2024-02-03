@@ -16,6 +16,8 @@ const expAndProjTitle = `Practical Experience & Projects Portfolio`;
 const collabTitle = `Communication & Collaboration`;
 const devOpsTitle = `DevOps`;
 const techStackTitle = `Tech Stack`;
+const certificatesTitle = `Certificates`;
+const socialsTitle = `Social Accounts`;
 
 // Buttons
 
@@ -30,6 +32,10 @@ const Index: React.FC = () => {
       <div className="grid md:grid-cols-2">
         <PageBlock title={devOpsTitle} textContent={devOpsText} />
         <PageBlock title={techStackTitle} textContent={techStackText} />
+      </div>
+      <div className="grid md:grid-cols-2">
+        <PageBlock title={certificatesTitle} textContent={devOpsText} />
+        <PageBlock title={socialsTitle} textContent={techStackText} />
       </div>
     </div>
   );
