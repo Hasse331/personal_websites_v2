@@ -10,7 +10,7 @@ body {
 body {
   /* Use the custom radial gradient background */
   @apply bg-custom-radial;
-  @apply from-blue-200 via-blue-800 to-black;
+  @apply from-slate-800 via-blue-800 to-black;
   @apply text-white;
 }
 h1 {
