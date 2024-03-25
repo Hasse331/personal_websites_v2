@@ -62,6 +62,9 @@ export const expAndProjectsText: JSX.Element = (
       and check out my other projects (also older ones) in my earlier portfolio
       websites by button below: (slow initial load)
     </p>
+    <p>
+      (The transition to these new portfolio pages is currently in progress.)
+    </p>
   </div>
 );
 

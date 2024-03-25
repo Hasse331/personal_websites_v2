@@ -19,7 +19,7 @@ const expAndProjButton = {
 
 const Index: React.FC = () => {
   return (
-    <div className="max-w-6xl mx-auto py-4 px-2 sm:px-4">
+    <div className="max-w-5xl mx-auto py-4 px-2 sm:px-4">
       <PageBlock
         title={`My core strengths as a software developer`}
         textContent={IntroductionText}
@@ -31,6 +31,7 @@ const Index: React.FC = () => {
           textContent={expAndProjectsText}
           btn={expAndProjButton}
         />
+
         <PageBlock
           title={`Tech Stack`}
           textContent={techStackText}

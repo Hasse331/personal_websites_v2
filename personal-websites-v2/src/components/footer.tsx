@@ -11,7 +11,10 @@ const Footer = () => {
           <Link href="/techStack" passHref>
             <p className="hover:text-blue-300 transition duration-300">Stack</p>
           </Link>
-          <Link href="/portfolio" passHref>
+          <Link
+            href="https://hasse-imberg-websites.onrender.com/pages/projects.php"
+            passHref
+          >
             <p className="hover:text-blue-300 transition duration-300">
               Portfolio
             </p>
