@@ -14,7 +14,7 @@ const TechStackPage: React.FC = () => {
         PostgreSQL, SQL, Jest, PHP, Python, JavaScript, TypeScript, Tailwind
         CSS, Jira, Git, GitHub, Socket.IO, FastAPI, Flask, Express, Node.js,
         HTML/CSS, Electron, PyQt, Docker, Discord and much more. With
-        proficiency in these tools and frameworks, I'm equipped to tackle
+        proficiency in these tools and frameworks, I&apos;m equipped to tackle
         diverse challenges and deliver innovative solutions.
       </p>
 
