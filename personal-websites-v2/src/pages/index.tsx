@@ -5,16 +5,17 @@ import React from "react";
 import {
   IntroductionText,
   expAndProjectsText,
-  collabText,
-  devOpsText,
   techStackText,
   certificatesText,
-  socialsText,
+  socialLinks,
 } from "@/textContents/indexTextContents";
 
 // Buttons
 const techStackButton = { href: "/techStack", text: "Full tech stack" };
-const expAndProjButton = { href: "/portfolio", text: "Full portfolio" };
+const expAndProjButton = {
+  href: "https://hasse-imberg-websites.onrender.com/pages/projects.php",
+  text: "Full portfolio (outdated)",
+};
 
 const Index: React.FC = () => {
   return (
@@ -26,7 +27,7 @@ const Index: React.FC = () => {
       />
       <div className="grid md:grid-cols-2">
         <PageBlock
-          title={`Practical Experience & Projects Portfolio`}
+          title={`Practical Experience & Projects`}
           textContent={expAndProjectsText}
           btn={expAndProjButton}
         />
@@ -36,16 +37,10 @@ const Index: React.FC = () => {
           btn={techStackButton}
         />
       </div>
-      <div className="grid md:grid-cols-2">
-        <PageBlock
-          title={`Communication & Collaboration`}
-          textContent={collabText}
-        />
-        <PageBlock title={`DevOps`} textContent={devOpsText} />
-      </div>
+
       <div className="grid md:grid-cols-2">
         <PageBlock title={"Certificates"} textContent={certificatesText} />
-        <PageBlock title={`Social Accounts`} textContent={socialsText} />
+        <PageBlock title={`Social Accounts`} textContent={socialLinks} />
       </div>
     </div>
   );

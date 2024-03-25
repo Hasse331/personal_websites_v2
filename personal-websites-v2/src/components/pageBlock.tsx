@@ -8,7 +8,7 @@ export default function PageBlock({
   btn = null,
 }: {
   title: string;
-  textContent: string;
+  textContent: string | JSX.Element;
   imageSrc?: string;
   btn?: { href: string; text: string } | null;
 }) {
