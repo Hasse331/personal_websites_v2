@@ -12,7 +12,6 @@ export default function RootLayout({
 }>) {
   return (
     <>
-      <NavBar />
       <main className={`${inter.className}`}>{children}</main>
       <Footer />
     </>
