@@ -13,11 +13,8 @@ const NavBar = () => {
         <Link href="/techStack" passHref>
           <p className={linkStyle}>Stack</p>
         </Link>
-        <Link
-          href="https://hasse-imberg-websites.onrender.com/pages/projects.php"
-          passHref
-        >
-          <p className={linkStyle}>Portfolio</p>
+        <Link href="https://github.com/Hasse331?tab=repositories" passHref>
+          <p className={linkStyle}>Portfolio (GitHub)</p>
         </Link>
       </div>
     </nav>

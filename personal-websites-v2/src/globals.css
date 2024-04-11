@@ -41,6 +41,10 @@ p {
   @apply text-center text-gray-200 m-1.5 text-shadow-md;
 }
 
+a {
+  @apply underline;
+}
+
 h1,
 h2,
 h3,

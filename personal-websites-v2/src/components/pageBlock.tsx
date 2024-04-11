@@ -23,7 +23,7 @@ export default function PageBlock({
             src={imageSrc}
             width={800}
             height={800}
-            alt="Image"
+            alt={imageSrc}
           />
         </div>
       )}
@@ -32,7 +32,7 @@ export default function PageBlock({
         {textContent}
       </div>
       {btn && (
-        <Link className="max-w-3" href={btn.href} passHref>
+        <Link className="max-w-3 no-underline" href={btn.href} passHref>
           <button>{btn.text}</button>
         </Link>
       )}

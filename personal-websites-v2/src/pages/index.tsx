@@ -13,8 +13,8 @@ import {
 // Buttons
 const techStackButton = { href: "/techStack", text: "Full tech stack" };
 const expAndProjButton = {
-  href: "https://hasse-imberg-websites.onrender.com/pages/projects.php",
-  text: "Full portfolio (outdated)",
+  href: "https://github.com/Hasse331?tab=repositories",
+  text: "Full portfolio (GitHub)",
 };
 
 const Index: React.FC = () => {

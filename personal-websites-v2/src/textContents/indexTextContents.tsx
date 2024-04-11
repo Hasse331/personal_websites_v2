@@ -8,13 +8,13 @@ At the core of my technical arsenal are robust languages and frameworks, includi
 Driven by a profound passion and unwavering dedication to my craft, software development isn't just a career for me—it's a calling. I am committed to continuous learning, staying abreast of emerging technologies, and refining my skills to remain at the forefront of the ever-evolving tech landscape.
 
 In summary, my expertise in full stack development, coupled with my experience in leadership roles, strong foundation in cutting-edge technologies, and unwavering passion for software development, positions me as a valuable asset capable of tackling complex challenges and driving success in any project or team environment.`;
+
 export const expAndProjectsText: JSX.Element = (
   <div>
     <p className="mb-4 text-justify" style={{ whiteSpace: "pre-line" }}>
       As a team lead for Project{" "}
       <strong>
         <a
-          className="underline"
           href="https://lapsen-arki.fi/ "
           target="_blank"
           rel="noopener noreferrer"
@@ -28,30 +28,17 @@ export const expAndProjectsText: JSX.Element = (
       families. Additionally, I initiated another larger project{" "}
       <strong>
         <a
-          className="underline"
-          href="https://hasse-imberg-websites.onrender.com/project_pages/real.php"
+          href="https://github.com/Hasse331/REAL"
           target="_blank"
           rel="noopener noreferrer"
         >
           REAL
         </a>{" "}
       </strong>
-      , a personal endeavor aimed at enhancing social media interactions. REAL,
-      built on Next.js, TypeScript, TailwindCSS, and FastAPI, features{" "}
+      built on Next.js, TypeScript, TailwindCSS, and FastAPI, features real-time
+      direct messaging using Socket.io. Explore Lapsen Arki websites{" "}
       <strong>
         <a
-          className="underline"
-          href="https://hasse-imberg-websites.onrender.com/project_pages/chatapi.php"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          real-time direct messaging
-        </a>{" "}
-      </strong>{" "}
-      using Socket.io. Explore Lapsen Arki websites{" "}
-      <strong>
-        <a
-          className="underline"
           href="https://lapsen-arki.fi/"
           target="_blank"
           rel="noopener noreferrer"
@@ -62,14 +49,12 @@ export const expAndProjectsText: JSX.Element = (
       and check out my other projects (also older ones) in my earlier portfolio
       websites by button below: (slow initial load)
     </p>
-    <p>
-      (The transition to these new portfolio pages is currently in progress.)
-    </p>
   </div>
 );
 
 export const techStackText = `
 With a diverse toolkit comprising Next.js, Vite, Material-UI, MongoDB, PostgreSQL, SQL, Jest, PHP, Python, JavaScript, TypeScript, Tailwind CSS, Jira, Git, GitHub, Socket.IO, FastAPI, Flask, Express, Node.js, HTML/CSS, Electron, PyQt, Docker, and Discord, I bring a wealth of expertise to the table. Armed with proficiency in these tools and frameworks, I stand ready to take on any challenge and devise inventive`;
+
 export const certificatesText: JSX.Element = (
   <div>
     <p>
