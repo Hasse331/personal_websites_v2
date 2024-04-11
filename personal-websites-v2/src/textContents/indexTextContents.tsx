@@ -19,17 +19,24 @@ export const IntroductionText: JSX.Element = (
       </p>
     </div>
     <div>
-      <h5>Experience</h5>
-      <p className="text-justify ">
+      <h5>Path to Software Developer</h5>
+      <p className="text-justify">
         Later, I went to study another profession outside of this interest of
         mine to find out that it was not for me. However, my previous passion
         started to call me back to my roots. I started to move back to my true
-        interests in the digital landscape and entrepreneurship. During the end
-        of my military service, I started as freelancer, first in music
-        production but translated quickly to digital marketing, and CMS website
-        building. Soon, I also founded my first company and e-commerce business,
+        interests first in digital marketing and entrepreneurship, and finally,
+        fully committed in full-stack software development. During the end of my
+        military service, I started as a freelancer, first in music production
+        but translated quickly to digital marketing, and CMS website building.
+        Soon, I also founded my first company and e-commerce business,
         kelloranneke.fi what is still running today, operated by my close
-        relative, to whom we sold the business.
+        relative, to whom we sold the business. Today, I have a solid
+        understanding of business, marketing, and great communication skills,
+        combined with my vast real-world full-stack software development
+        projects, education, and courses. As I continue on this path, I remain
+        open to learning and growing in the field of technology. It&apos;s been
+        a journey of adapting, building, and helping where I can, always looking
+        forward to the next challenge and opportunity to improve.
       </p>
     </div>
   </div>
