@@ -8,14 +8,15 @@ export const IntroductionText: JSX.Element = (
     <div className="mt-8">
       <h5>Passion for IT and Computers</h5>
       <p className="mb-4 text-justify " style={{ whiteSpace: "pre-line" }}>
-        I have been fascinated and passionate about computers and IT my whole
-        life. From my childhood playing the Moomins game, then watching my
-        brother playing Morrowind. I was about 14 years old when I bought my
-        first PC with the salary I earned at my first summer job at my
-        uncle&apos;s farm. Then I became the PC expert at my school, building
-        computers for my friends, and helping them with any technical problems.
-        I wrote my first code about this time by writing batch scripts for
-        Minecraft servers, and also some harmless viruses on school computers.
+        I have been fascinated and passionate about the internet, tech,
+        computers, and IT my whole life. From my childhood playing the Moomins
+        game, then watching my brother playing Morrowind. I was about 14 years
+        old when I bought my first PC with the salary I earned at my first
+        summer job at my uncle&apos;s farm. Then I became the PC expert at my
+        school, building computers for my friends, and helping them with any
+        technical problems. I wrote my first code about this time by writing
+        batch scripts for Minecraft servers, and also some harmless viruses on
+        school computers.
       </p>
     </div>
     <div>
