@@ -6,16 +6,16 @@ export const IntroductionText: JSX.Element = (
     </p>
 
     <div className="mt-8">
-      <h5>First passion to IT and computers</h5>
+      <h5>Passion for IT and Computers</h5>
       <p className="mb-4 text-justify " style={{ whiteSpace: "pre-line" }}>
         I have been fascinated and passionate about computers and IT my whole
-        life. life, from my childhood playing the moomins game, then watching my
-        brother paying morrowind. I was about 14 years old when I bought my
-        first PC  with the salary I earned at my first summer job at my
+        life. From my childhood playing the Moomins game, then watching my
+        brother playing Morrowind. I was about 14 years old when I bought my
+        first PC with the salary I earned at my first summer job at my
         uncle&apos;s farm. Then I became the PC expert at my school, building
-        computers, and helping with technical problems. I wrote my first code by
-        writing batch scripts for minecraft servers and also some harmless
-        viruses on school computers.
+        computers for my friends, and helping them with any technical problems.
+        I wrote my first code about this time by writing batch scripts for
+        Minecraft servers, and also some harmless viruses on school computers.
       </p>
     </div>
     <div>
@@ -27,9 +27,9 @@ export const IntroductionText: JSX.Element = (
         interests in the digital landscape and entrepreneurship. During the end
         of my military service, I started as freelancer, first in music
         production but translated quickly to digital marketing, and CMS website
-        building. At the same time, I founded my first company and e-commerce
-        business kelloranneke.fi what is still running today, operated by my
-        close relative, to whom we sold the business.
+        building. Soon, I also founded my first company and e-commerce business,
+        kelloranneke.fi what is still running today, operated by my close
+        relative, to whom we sold the business.
       </p>
     </div>
   </div>

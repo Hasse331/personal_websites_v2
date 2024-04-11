@@ -9,8 +9,9 @@ const TechStackPage: React.FC = () => {
       <h1 className="">My Tech Stack</h1>
 
       <p className="mt-5">
-        In this page you can view all the technologies I&apos;m familiar with
-        and have used in some of my real-world projects.
+        On this page, you can view all the technologies I&apos;m familiar with.
+        I have used all of these in various real-world projects. (Excluding
+        code-along course projects and similar exercises.)
       </p>
 
       <div className="grid md:grid-cols-2 mt-10">
