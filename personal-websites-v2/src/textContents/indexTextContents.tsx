@@ -6,7 +6,7 @@ export const IntroductionText: JSX.Element = (
     </p>
 
     <div className="mt-8">
-      <h5>Passion for IT and Computers</h5>
+      <h5>Passion for Tech and Computers</h5>
       <p className="mb-4 text-justify " style={{ whiteSpace: "pre-line" }}>
         I have been fascinated and passionate about the internet, tech,
         computers, and IT my whole life. From my childhood playing the Moomins
