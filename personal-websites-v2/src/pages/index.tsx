@@ -21,7 +21,7 @@ const Index: React.FC = () => {
   return (
     <div className="max-w-5xl mx-auto py-4 px-2 sm:px-4">
       <PageBlock
-        title={`My core strengths as a software developer`}
+        title={`About Me`}
         textContent={IntroductionText}
         imageSrc={"/selfie.jpg"}
       />

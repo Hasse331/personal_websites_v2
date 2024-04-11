@@ -1,18 +1,44 @@
-export const IntroductionText = `
-My core strengths as a software developer lie primarily in full stack development, where I thrive on creating seamless and dynamic web applications that deliver exceptional user experiences. With a keen focus on web development, I possess a diverse range of experience across various development realms, including desktop applications, ML and NLP, although my primary expertise remains centered around web-based solutions. 
+export const IntroductionText: JSX.Element = (
+  <div>
+    <p>
+      I&apos;m full-stack developer from Espoo, Finland, and my speciality is
+      web development and cross-platform development.{" "}
+    </p>
 
-Throughout my career journey, I've had the privilege of assuming leadership roles, notably as a team leader during my latest web application project within my internship. This experience not only honed my technical skills but also instilled in me a deep understanding of effective project management, collaboration, and the importance of delivering high-quality results on time.
-
-At the core of my technical arsenal are robust languages and frameworks, including TypeScript, JavaScript, Python, React, FastAPI, Node.js, Express, Firebase, and more. I leverage these tools with precision and creativity to craft innovative solutions that exceed expectations and push boundaries in software development.
-
-Driven by a profound passion and unwavering dedication to my craft, software development isn't just a career for me—it's a calling. I am committed to continuous learning, staying abreast of emerging technologies, and refining my skills to remain at the forefront of the ever-evolving tech landscape.
-
-In summary, my expertise in full stack development, coupled with my experience in leadership roles, strong foundation in cutting-edge technologies, and unwavering passion for software development, positions me as a valuable asset capable of tackling complex challenges and driving success in any project or team environment.`;
+    <div className="mt-8">
+      <h5>First passion to IT and computers</h5>
+      <p className="mb-4 text-justify " style={{ whiteSpace: "pre-line" }}>
+        I have been fascinated and passionate about computers and IT my whole
+        life. life, from my childhood playing the moomins game, then watching my
+        brother paying morrowind. I was about 14 years old when I bought my
+        first PC  with the salary I earned at my first summer job at my
+        uncle&apos;s farm. Then I became the PC expert at my school, building
+        computers, and helping with technical problems. I wrote my first code by
+        writing batch scripts for minecraft servers and also some harmless
+        viruses on school computers.
+      </p>
+    </div>
+    <div>
+      <h5>Experience</h5>
+      <p className="text-justify ">
+        Later, I went to study another profession outside of this interest of
+        mine to find out that it was not for me. However, my previous passion
+        started to call me back to my roots. I started to move back to my true
+        interests in the digital landscape and entrepreneurship. During the end
+        of my military service, I started as freelancer, first in music
+        production but translated quickly to digital marketing, and CMS website
+        building. At the same time, I founded my first company and e-commerce
+        business kelloranneke.fi what is still running today, operated by my
+        close relative, to whom we sold the business.
+      </p>
+    </div>
+  </div>
+);
 
 export const projectsText: JSX.Element = (
   <div>
-    <p className="mb-4 text-justify" style={{ whiteSpace: "pre-line" }}>
-      As a team lead for Project{" "}
+    <p className="mb-4 text-justify mt-8" style={{ whiteSpace: "pre-line" }}>
+      As a team lead and full-stack developer for SaaS Project{" "}
       <strong>
         <a
           href="https://lapsen-arki.fi/ "
@@ -23,9 +49,9 @@ export const projectsText: JSX.Element = (
         </a>{" "}
       </strong>{" "}
       (Lapsen Arki), I spearheaded the development of a comprehensive platform
-      utilizing a robust tech stack including MUI, Azure, Vite, React,
-      TypeScript, and Firebase. LAAR aimed to streamline everyday tasks for
-      families. Additionally, I initiated another larger project{" "}
+      utilizing a tech stack including MUI, Azure, Vite, React, TypeScript,
+      Stripe and Firebase. LAAR is aiming to streamline everyday tasks for
+      families. <br /> <br /> Additionally, I initiated another larger project{" "}
       <strong>
         <a
           href="https://github.com/Hasse331/REAL"
@@ -36,24 +62,39 @@ export const projectsText: JSX.Element = (
         </a>{" "}
       </strong>
       built on Next.js, TypeScript, TailwindCSS, and FastAPI, features real-time
-      direct messaging using Socket.io. Explore Lapsen Arki websites{" "}
+      direct messaging using Socket.io. <br />
+      <br /> You can also check my old (PHP) portfolio websites and projects
+      from{" "}
       <strong>
         <a
-          href="https://lapsen-arki.fi/"
+          href="https://hasse-imberg-websites.onrender.com/pages/projects.php"
           target="_blank"
           rel="noopener noreferrer"
         >
           here
         </a>{" "}
-      </strong>
-      and check out my other projects (also older ones) in my earlier portfolio
-      websites by button below: (slow initial load)
+      </strong>{" "}
+      (slow initial load). Full and updated portfolio is in my{" "}
+      <strong>
+        <a
+          href="https://github.com/Hasse331?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub.
+        </a>{" "}
+      </strong>{" "}
     </p>
   </div>
 );
 
 export const techStackText = `
-With a diverse toolkit comprising Next.js, Vite, Material-UI, MongoDB, PostgreSQL, SQL, Jest, PHP, Python, JavaScript, TypeScript, Tailwind CSS, Jira, Git, GitHub, Socket.IO, FastAPI, Flask, Express, Node.js, HTML/CSS, Electron, PyQt, Docker, and Discord, I bring a wealth of expertise to the table. Armed with proficiency in these tools and frameworks, I stand ready to take on any challenge and devise inventive`;
+My tech stack focuses mostly on full-stack web development, including TypeScript, React.js, Node.js, Python and FastAPI.
+
+I'm also skilled in cross-platform development for desktop and mobile applications using Flutter and familiar with Electron and PyQt. Flutter is the stronger part of these.
+
+After all, I'm a multilingual programmer with a strong foundation in programming best practices, code readability, and paradigms. I'm committed to always learning more, and I can adapt to any tech stack suited for your project requirements.
+`;
 
 export const certificatesText: JSX.Element = (
   <div>
