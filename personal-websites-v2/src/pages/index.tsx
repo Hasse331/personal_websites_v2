@@ -4,7 +4,7 @@ import React from "react";
 // text cont imports:
 import {
   IntroductionText,
-  expAndProjectsText,
+  projectsText,
   techStackText,
   certificatesText,
   socialLinks,
@@ -27,8 +27,8 @@ const Index: React.FC = () => {
       />
       <div className="grid md:grid-cols-2">
         <PageBlock
-          title={`Practical Experience & Projects`}
-          textContent={expAndProjectsText}
+          title={`Projects`}
+          textContent={projectsText}
           btn={expAndProjButton}
         />
 
@@ -39,7 +39,7 @@ const Index: React.FC = () => {
         />
       </div>
 
-      <div className="grid md:grid-cols-2">
+      <div className="grid md:grid-cols-2 mt-10">
         <PageBlock title={"Certificates"} textContent={certificatesText} />
         <PageBlock title={`Social Accounts`} textContent={socialLinks} />
       </div>

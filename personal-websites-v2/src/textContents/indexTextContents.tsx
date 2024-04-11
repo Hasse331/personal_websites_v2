@@ -9,7 +9,7 @@ Driven by a profound passion and unwavering dedication to my craft, software dev
 
 In summary, my expertise in full stack development, coupled with my experience in leadership roles, strong foundation in cutting-edge technologies, and unwavering passion for software development, positions me as a valuable asset capable of tackling complex challenges and driving success in any project or team environment.`;
 
-export const expAndProjectsText: JSX.Element = (
+export const projectsText: JSX.Element = (
   <div>
     <p className="mb-4 text-justify" style={{ whiteSpace: "pre-line" }}>
       As a team lead for Project{" "}

@@ -8,17 +8,12 @@ const TechStackPage: React.FC = () => {
     <div className="max-w-4xl mx-auto py-8 px-4">
       <h1 className="">My Tech Stack</h1>
 
-      <h2 className="text-xl font-bold mt-4">Tech Stack:</h2>
-      <p>
-        My versatile tech stack encompasses Next.js, Vite, Material-UI, MongoDB,
-        PostgreSQL, SQL, Jest, PHP, Python, JavaScript, TypeScript, Tailwind
-        CSS, Jira, Git, GitHub, Socket.IO, FastAPI, Flask, Express, Node.js,
-        HTML/CSS, Electron, PyQt, Docker, Discord and much more. With
-        proficiency in these tools and frameworks, I&apos;m equipped to tackle
-        diverse challenges and deliver innovative solutions.
+      <p className="mt-5">
+        In this page you can view all the technologies I&apos;m familiar with
+        and have used in some of my real-world projects.
       </p>
 
-      <div className="grid md:grid-cols-2">
+      <div className="grid md:grid-cols-2 mt-10">
         <ul className={boxStyle}>
           <h2 className={listTitleStyle}>Frontend Development:</h2>
           <li>React.js</li>
@@ -30,7 +25,8 @@ const TechStackPage: React.FC = () => {
           <li>Next.js</li>
           <li>Vite</li>
           <li>Electron & PyQt (for desktop applications)</li>
-          <li>Flutter (upcoming / learning)</li>
+          <li>Flutter</li>
+          <li>React Native (upcoming)</li>
         </ul>
 
         <ul className={boxStyle}>
@@ -45,7 +41,7 @@ const TechStackPage: React.FC = () => {
           <li>FastAPI</li>
           <li>Flask</li>
           <li>PHP</li>
-          <li>Go (upcoming / learning)</li>
+          <li>Go (upcoming)</li>
           <li>Kotlin & Java (very interested)</li>
         </ul>
       </div>
@@ -80,8 +76,12 @@ const TechStackPage: React.FC = () => {
           <li>Slack</li>
         </ul>
         <ul className={boxStyle}>
-          <h2 className={listTitleStyle}>Real-time Communication:</h2>
-          <li>Socket.IO</li>
+          <h2 className={listTitleStyle}>Cloud services & DevOps:</h2>
+          <li>Azure</li>
+          <li>Aws</li>
+          <li>Firebase</li>
+          <li>Render</li>
+          <li>Docker</li>
         </ul>
       </div>
       <div className="grid md:grid-cols-2">
@@ -91,12 +91,8 @@ const TechStackPage: React.FC = () => {
           <li>PyQt</li>
         </ul>
         <ul className={boxStyle}>
-          <h2 className={listTitleStyle}>Cloud services & DevOps:</h2>
-          <li>Azure</li>
-          <li>Aws</li>
-          <li>Firebase</li>
-          <li>Render</li>
-          <li>Docker</li>
+          <h2 className={listTitleStyle}>Real-time Communication:</h2>
+          <li>Socket.IO</li>
         </ul>
       </div>
       <div className="grid md:grid-cols-2">

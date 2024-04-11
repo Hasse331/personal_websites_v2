@@ -8,10 +8,13 @@ body {
 }
 
 body {
-  /* Use the custom radial gradient background */
-  @apply bg-custom-radial;
-  @apply from-slate-800 via-blue-800 to-black;
-  @apply text-white;
+  background-image: linear-gradient(
+    to bottom right,
+    slateblue 0%,
+    rgb(23, 23, 104) 50%,
+    rgb(0, 0, 0) 100%
+  );
+  color: white;
 }
 h1 {
   @apply text-5xl;
