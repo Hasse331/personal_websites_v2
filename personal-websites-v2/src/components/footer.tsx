@@ -18,7 +18,9 @@ const Footer = () => {
           </Link>
         </div>
         <p className="mt-4">
-          © {new Date().getFullYear()} Hasse Imberg. All rights reserved.
+          © {new Date().getFullYear()} Hasse Imberg. All rights reserved. No
+          part of this site—images, personal information, or design elements—may
+          be reproduced or used without explicit permission.
         </p>
       </div>
     </footer>
