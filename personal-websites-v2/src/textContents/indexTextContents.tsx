@@ -154,6 +154,12 @@ export const socialLinks: JSX.Element = (
       </a>
     </p>
     <p>
+      Instagram:{" "}
+      <a href="https://www.reddit.com/u/HasseImberg/s/iU8qLCszey">
+        Profile Link
+      </a>
+    </p>
+    <p>
       TikTok:{" "}
       <a href="https://www.tiktok.com/@hazberg1?_t=8lUJFfteoOv&_r=1">
         Profile Link
