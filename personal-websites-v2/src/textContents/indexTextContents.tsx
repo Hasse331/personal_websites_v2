@@ -136,27 +136,30 @@ export const certificatesText: JSX.Element = (
 export const socialLinks: JSX.Element = (
   <div>
     <p>
+      GitHub: <a href="https://github.com/Hasse331/">Profile Link</a>
+    </p>
+    <p>
       LinkedIn:{" "}
       <a href="https://www.linkedin.com/in/hasse-imberg-433889230/">
-        Profile Link
+        LinkedIn Link
       </a>
     </p>
     <p>
       X:{" "}
       <a href="https://x.com/ImbergHasse?t=4aoa5NvDt8iNxMFgKDos-Q&s=09">
-        Profile Link
+        X Link
       </a>
     </p>
     <p>
       Instagram:{" "}
       <a href="https://www.instagram.com/hasse_imberg?igsh=MTBraWxtbGNsYmpvcA==">
-        Profile Link
+        Instagram Link
       </a>
     </p>
     <p>
-      Instagram:{" "}
+      Reddit:{" "}
       <a href="https://www.reddit.com/u/HasseImberg/s/iU8qLCszey">
-        Profile Link
+        Reddit Link
       </a>
     </p>
     <p>
@@ -164,9 +167,6 @@ export const socialLinks: JSX.Element = (
       <a href="https://www.tiktok.com/@hazberg1?_t=8lUJFfteoOv&_r=1">
         Profile Link
       </a>
-    </p>
-    <p>
-      GitHub: <a href="https://github.com/Hasse331/">Profile Link</a>
     </p>
   </div>
 );
