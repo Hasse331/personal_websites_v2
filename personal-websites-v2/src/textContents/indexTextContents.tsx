@@ -139,27 +139,33 @@ export const socialLinks: JSX.Element = (
       GitHub: <a href="https://github.com/Hasse331/">Profile Link</a>
     </p>
     <p>
-      LinkedIn:{" "}
-      <a href="https://www.linkedin.com/in/hasse-imberg-433889230/">
-        LinkedIn Link
+      X.com:{" "}
+      <a href="https://x.com/ImbergHasse?t=4aoa5NvDt8iNxMFgKDos-Q&s=09">
+        Profile Link
       </a>
     </p>
     <p>
-      X:{" "}
-      <a href="https://x.com/ImbergHasse?t=4aoa5NvDt8iNxMFgKDos-Q&s=09">
-        X Link
+      LinkedIn:{" "}
+      <a href="https://www.linkedin.com/in/hasse-imberg-433889230/">
+        Profile Link
+      </a>
+    </p>
+    <p>
+      Youtube:{" "}
+      <a href="https://www.youtube.com/channel/UCy0QByMsXVzw6VVQaPNLxKg">
+        Profile Link
       </a>
     </p>
     <p>
       Instagram:{" "}
       <a href="https://www.instagram.com/hasse_imberg?igsh=MTBraWxtbGNsYmpvcA==">
-        Instagram Link
+        Profile Link
       </a>
     </p>
     <p>
       Reddit:{" "}
       <a href="https://www.reddit.com/u/HasseImberg/s/iU8qLCszey">
-        Reddit Link
+        Profile Link
       </a>
     </p>
     <p>
