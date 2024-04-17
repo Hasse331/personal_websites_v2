@@ -150,6 +150,13 @@ export const socialLinks: JSX.Element = (
         Profile Link
       </a>
     </p>
+    <p>Discord: hasse0483</p>
+    <p>
+      Snapchat:{" "}
+      <a href="https://www.snapchat.com/add/hasse_imberg?share_id=7qvIQMJ_yCo&locale=en-GB">
+        Profile Link
+      </a>
+    </p>
     <p>
       Youtube:{" "}
       <a href="https://www.youtube.com/channel/UCy0QByMsXVzw6VVQaPNLxKg">
