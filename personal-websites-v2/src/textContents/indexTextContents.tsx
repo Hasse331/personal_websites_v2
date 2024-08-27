@@ -126,7 +126,10 @@ export const certificatesText: JSX.Element = (
 export const socialLinks: JSX.Element = (
   <div>
     <p>
-      GitHub: <a href="https://github.com/Hasse331/">Profile Link</a>
+      GitHub:{" "}
+      <a target="_blank" href="https://github.com/Hasse331/">
+        Profile Link
+      </a>
     </p>
     <p>
       LinkedIn:{" "}
