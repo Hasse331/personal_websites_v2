@@ -1,10 +1,11 @@
 export const IntroductionText: JSX.Element = (
   <div>
     <p>
-      Hello! My name is Hans. I&apos;m software developer and a computer science
-      student at University Of Turku, Finland. My strengths are web development
-      and cross-platform development. My main programmin languages are
-      Typescript, Dart and Python but also familiar with other languages.{" "}
+      Hello! My name is Hans. I&apos;m a software developer and a computer
+      science student at the University Of Turku, Finland. My strengths are web
+      development and cross-platform development. My main programming languages
+      are Typescript, Dart, and Python but I am also familiar with other
+      languages.{" "}
     </p>
   </div>
 );
@@ -12,7 +13,7 @@ export const IntroductionText: JSX.Element = (
 export const projectsText: JSX.Element = (
   <div>
     <p className="mb-4 text-justify" style={{ whiteSpace: "pre-line" }}>
-      I have many projects and you can view most of them in my github profile.
+      I have many projects and you can view most of them in my GitHub profile.
       Some of these projects are team projects, but most of my current projects
       are my personal projects.
     </p>
@@ -62,9 +63,9 @@ export const projectsText: JSX.Element = (
   </div>
 );
 
-export const techStackText = ` I have very versatile Tech Stack and I'm familiar with many different technologies.
+export const techStackText = ` I have a versatile Tech Stack, and I'm familiar with many different technologies.
 
-But to summarize my main skills I'm most proficient are:  TypeScript based web development, Dart/Flutter Cross-Platform development, Python backends and API:s`;
+But to summarize, my main skills, where I'm most proficient, are:  TypeScript-based web development, Dart/Flutter Cross-Platform development, Python backends and APIs`;
 
 export const certificatesText: JSX.Element = (
   <div>
