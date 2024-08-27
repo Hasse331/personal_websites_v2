@@ -35,9 +35,9 @@ export const projectsText: JSX.Element = (
         target="_blank"
         href="https://hasse-imberg-websites.onrender.com/pages/projects.php"
       >
-        Old PHP portfolio sites (slow load)
-      </a>
-      .
+        Old PHP portfolio sites
+      </a>{" "}
+      (slow load).
     </p>
     <p className="mt-4">
       Here is links for some of my public github project repos:{" "}
@@ -65,7 +65,9 @@ export const projectsText: JSX.Element = (
 
 export const techStackText = ` I have a versatile Tech Stack, and I'm familiar with many different technologies.
 
-But to summarize, my main skills, where I'm most proficient, are:  TypeScript-based web development, Dart/Flutter Cross-Platform development, Python backends and APIs`;
+But to summarize, my main skills, where I'm most proficient, are:  
+
+TypeScript-based web development, Dart/Flutter Cross-Platform development, Python backends and APIs`;
 
 export const certificatesText: JSX.Element = (
   <div>
