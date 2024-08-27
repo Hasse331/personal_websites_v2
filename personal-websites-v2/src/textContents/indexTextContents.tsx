@@ -41,6 +41,10 @@ export const projectsText: JSX.Element = (
     </p>
     <p className="mt-4">
       Here is links for some of my public github project repos:{" "}
+      <a target="_blank" href="https://github.com/Hasse331/REAL">
+        REAL
+      </a>
+      {", "}
       <a target="_blank" href="https://github.com/Hasse331/ChatAPI">
         ChatAPI
       </a>
@@ -55,7 +59,7 @@ export const projectsText: JSX.Element = (
       .
     </p>
     <p className="mt-4">
-      Here you can learn more about some of my provate repos:{" "}
+      Here you can learn more about some of my private repos:{" "}
       <a target="_blank" href="https://github.com/Hasse331/Projects">
         github projects repo
       </a>
