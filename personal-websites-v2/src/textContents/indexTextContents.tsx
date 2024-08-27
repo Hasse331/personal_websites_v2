@@ -1,17 +1,17 @@
 export const IntroductionText: JSX.Element = (
   <div>
     <p>
-      Hello! My name is Hans and I&apos;m software developer from Turku,
-      Finland. My strengths are web development and cross-platform development.
-      My main programmin languages are Typescript, Dart and Python but also
-      familiar with other languages.{" "}
+      Hello! My name is Hans. I&apos;m software developer and a computer science
+      student at University Of Turku, Finland. My strengths are web development
+      and cross-platform development. My main programmin languages are
+      Typescript, Dart and Python but also familiar with other languages.{" "}
     </p>
   </div>
 );
 
 export const projectsText: JSX.Element = (
   <div>
-    <p className="mb-4 text-justify mt-8" style={{ whiteSpace: "pre-line" }}>
+    <p className="mb-4 text-justify" style={{ whiteSpace: "pre-line" }}>
       I have many projects and you can view most of them in my github profile.
       Some of these projects are team projects, but most of my current projects
       are my personal projects.
@@ -29,7 +29,35 @@ export const projectsText: JSX.Element = (
       <a target="_blank" href="https://lapsen-arki.fi">
         Lapsen-arki
       </a>
+      {", "}
+      <a
+        target="_blank"
+        href="https://hasse-imberg-websites.onrender.com/pages/projects.php"
+      >
+        Old PHP portfolio sites (slow load)
+      </a>
       .
+    </p>
+    <p className="mt-4">
+      Here is links for some of my public github project repos:{" "}
+      <a target="_blank" href="https://github.com/Hasse331/ChatAPI">
+        ChatAPI
+      </a>
+      {", "}
+      <a target="_blank" href="https://github.com/Hasse331/Project-Manager">
+        PyQt project manager
+      </a>
+      {", "}
+      <a target="_blank" href="https://lapsen-arki.fi">
+        Lapsen-arki
+      </a>
+      .
+    </p>
+    <p className="mt-4">
+      Here you can learn more about some of my provate repos:{" "}
+      <a target="_blank" href="https://github.com/Hasse331/Projects">
+        github projects repo
+      </a>
     </p>
   </div>
 );
