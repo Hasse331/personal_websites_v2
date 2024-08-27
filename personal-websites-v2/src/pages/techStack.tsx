@@ -15,11 +15,11 @@ const TechStackPage: React.FC = () => {
       </p>
       <br />
       <p>
-        My main skills I&apos;m most proficient are: <br />
+        My main skills, where I am most proficient, are: <br />
         <strong>
           {" "}
-          TypeScript based web development, Dart/Flutter Cross-Platform
-          development, Python backends and API:s
+          TypeScript-based web development, Dart/Flutter Cross-Platform
+          development, Python backends and APIs
         </strong>
       </p>
 

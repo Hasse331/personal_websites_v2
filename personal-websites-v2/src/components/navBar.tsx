@@ -14,6 +14,8 @@ const NavBar = () => {
           <p className={linkStyle}>Stack</p>
         </Link>
         <Link
+          target="_blank"
+          rel="noopener noreferrer"
           className="no-underline"
           href="https://github.com/Hasse331?tab=repositories"
           passHref

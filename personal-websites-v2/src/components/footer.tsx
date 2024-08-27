@@ -20,8 +20,8 @@ const Footer = () => {
         <p>Websites updated: 27.8.2024</p>
         <p className="mt-4">
           © {new Date().getFullYear()} Hans Imberg. All rights reserved. No part
-          of this site—images, personal information, or design elements—may be
-          reproduced or used without explicit permission.
+          of this site — images, personal information, or design elements — may
+          be reproduced or used without explicit permission.
         </p>
       </div>
     </footer>

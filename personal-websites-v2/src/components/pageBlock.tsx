@@ -32,7 +32,13 @@ export default function PageBlock({
         {textContent}
       </div>
       {btn && (
-        <Link className="max-w-3 no-underline" href={btn.href} passHref>
+        <Link
+          className="max-w-3 no-underline"
+          target="_blank"
+          href={btn.href}
+          passHref
+          rel="noopener noreferrer"
+        >
           <button>{btn.text}</button>
         </Link>
       )}
