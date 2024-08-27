@@ -10,8 +10,17 @@ const TechStackPage: React.FC = () => {
 
       <p className="mt-5">
         On this page, you can view all the technologies I&apos;m familiar with.
-        I have used all of these in various real-world projects. (Excluding
-        code-along course projects and similar exercises.)
+        I have used all of these in various real-world projects. (Mostly
+        small-scale projects)
+      </p>
+      <br />
+      <p>
+        My main skills I&apos;m most proficient are: <br />
+        <strong>
+          {" "}
+          TypeScript based web development, Dart/Flutter Cross-Platform
+          development, Python backends and API:s
+        </strong>
       </p>
 
       <div className="grid md:grid-cols-2 mt-10">
@@ -25,9 +34,8 @@ const TechStackPage: React.FC = () => {
           <li>HTML/CSS</li>
           <li>Next.js</li>
           <li>Vite</li>
-          <li>Electron & PyQt (for desktop applications)</li>
+          <li>Electron & PyQt</li>
           <li>Flutter</li>
-          <li>React Native (upcoming)</li>
         </ul>
 
         <ul className={boxStyle}>
@@ -42,8 +50,6 @@ const TechStackPage: React.FC = () => {
           <li>FastAPI</li>
           <li>Flask</li>
           <li>PHP</li>
-          <li>Go (upcoming)</li>
-          <li>Kotlin & Java (very interested)</li>
         </ul>
       </div>
 
