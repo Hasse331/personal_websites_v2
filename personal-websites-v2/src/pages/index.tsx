@@ -11,6 +11,7 @@ import {
 } from "@/textContents/indexTextContents";
 
 // Buttons
+const strategyBtn = { href: "/strategy", text: "My strategy" };
 const techStackButton = { href: "/techStack", text: "Full tech stack" };
 const expAndProjButton = {
   href: "https://github.com/Hasse331?tab=repositories",
@@ -24,6 +25,7 @@ const Index: React.FC = () => {
         title={`About Me`}
         textContent={IntroductionText}
         imageSrc={"/selfie.jpg"}
+        btn={strategyBtn}
       />
       <div className="grid md:grid-cols-2">
         <PageBlock
