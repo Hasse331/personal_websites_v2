@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
           </Link>
         </div>
-        <p>Websites updated: 27.8.2024</p>
+        <p>Websites updated: 08.09.2024</p>
         <p className="mt-4">
           © {new Date().getFullYear()} Hans Imberg. All rights reserved. No part
           of this site — images, personal information, or design elements — may
