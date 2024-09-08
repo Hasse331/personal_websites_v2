@@ -6,7 +6,7 @@ const TechStackPage: React.FC = () => {
 
   return (
     <div className="max-w-4xl mx-auto py-8 px-4">
-      <h1 className="">My Tech Stack</h1>
+      <h1>My Tech Stack</h1>
 
       <p className="mt-5">
         On this page, you can view all the technologies I&apos;m familiar with.

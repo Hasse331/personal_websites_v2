@@ -13,14 +13,8 @@ const NavBar = () => {
         <Link className="no-underline" href="/techStack" passHref>
           <p className={linkStyle}>Stack</p>
         </Link>
-        <Link
-          target="_blank"
-          rel="noopener noreferrer"
-          className="no-underline"
-          href="https://github.com/Hasse331?tab=repositories"
-          passHref
-        >
-          <p className={linkStyle}>Portfolio (GitHub)</p>
+        <Link className="no-underline" href="/strategy" passHref>
+          <p className={linkStyle}>Strategy</p>
         </Link>
       </div>
     </nav>
