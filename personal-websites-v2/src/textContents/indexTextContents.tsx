@@ -76,6 +76,15 @@ TypeScript-based web development, Dart/Flutter Cross-Platform development, Pytho
 export const certificatesText: JSX.Element = (
   <div>
     <p>
+      Dart & Flutter:{" "}
+      <a
+        target="_blank"
+        href="https://www.udemy.com/certificate/UC-fc15cc7a-9fd3-4436-9c57-683ad0072e8b/"
+      >
+        Certificate Link
+      </a>
+    </p>
+    <p>
       Node.js:{" "}
       <a
         target="_blank"
