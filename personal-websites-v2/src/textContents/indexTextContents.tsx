@@ -1,11 +1,10 @@
 export const IntroductionText: JSX.Element = (
   <div>
     <p>
-      Hello! My name is Hans. I&apos;m a software developer and a computer
-      science student at the University Of Turku, Finland. My strengths are web
-      development and cross-platform development. My main programming languages
-      are Typescript, Dart, and Python but I am also familiar with other
-      languages.{" "}
+      Hello! My name is Hans. I&apos;m a computer science student at the
+      University Of Turku, Finland. My strengths are web development and
+      cross-platform development. My main programming languages are Typescript,
+      Dart, and Python but I am also familiar with other languages.{" "}
     </p>
   </div>
 );
@@ -161,10 +160,7 @@ export const socialLinks: JSX.Element = (
     </p>
     <p>
       Instagram:{" "}
-      <a
-        target="_blank"
-        href="https://www.instagram.com/hans_imberg?igsh=MTBraWxtbGNsYmpvcA=="
-      >
+      <a target="_blank" href="https://www.instagram.com/hasse_imberg">
         Profile Link
       </a>
     </p>

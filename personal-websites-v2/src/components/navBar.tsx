@@ -13,9 +13,6 @@ const NavBar = () => {
         <Link className="no-underline" href="/techStack" passHref>
           <p className={linkStyle}>Stack</p>
         </Link>
-        <Link className="no-underline" href="/strategy" passHref>
-          <p className={linkStyle}>Strategy</p>
-        </Link>
       </div>
     </nav>
   );

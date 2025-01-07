@@ -11,11 +11,6 @@ const Footer = () => {
           <Link href="/techStack" passHref>
             <p className="hover:text-blue-300 transition duration-300">Stack</p>
           </Link>
-          <Link href="/strategy" passHref>
-            <p className="hover:text-blue-300 transition duration-300">
-              Strategy
-            </p>
-          </Link>
         </div>
         <p>Websites updated: 10.09.2024</p>
         <p className="mt-4">
