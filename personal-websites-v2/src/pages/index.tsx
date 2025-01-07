@@ -25,7 +25,6 @@ const Index: React.FC = () => {
         title={`About Me`}
         textContent={IntroductionText}
         imageSrc={"/selfie.jpg"}
-        btn={strategyBtn}
       />
       <div className="grid md:grid-cols-2">
         <PageBlock
