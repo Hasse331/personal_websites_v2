@@ -12,7 +12,7 @@ const Footer = () => {
             <p className="hover:text-blue-300 transition duration-300">Stack</p>
           </Link>
         </div>
-        <p>Websites updated: 10.09.2024</p>
+        <p>Websites updated: 07.01.2025</p>
         <p className="mt-4">
           © {new Date().getFullYear()} Hans Imberg. All rights reserved. No part
           of this site — images, personal information, or design elements — may
