@@ -25,6 +25,7 @@ export const projectsText: JSX.Element = (
       <a target="_blank" href="https://focusgym.vercel.app">
         FocusGym
       </a>
+      {", "}
       <a
         target="_blank"
         href="https://hasse-imberg-websites.onrender.com/pages/projects.php"
