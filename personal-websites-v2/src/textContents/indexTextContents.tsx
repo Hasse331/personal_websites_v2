@@ -25,11 +25,6 @@ export const projectsText: JSX.Element = (
       <a target="_blank" href="https://focusgym.vercel.app">
         FocusGym
       </a>
-      {", "}
-      <a target="_blank" href="https://lapsen-arki.fi">
-        Lapsen-arki
-      </a>
-      {", "}
       <a
         target="_blank"
         href="https://hasse-imberg-websites.onrender.com/pages/projects.php"
@@ -49,11 +44,7 @@ export const projectsText: JSX.Element = (
       </a>
       {", "}
       <a target="_blank" href="https://github.com/Hasse331/Project-Manager">
-        PyQt project manager
-      </a>
-      {", "}
-      <a target="_blank" href="https://lapsen-arki.fi">
-        Lapsen-arki
+        project manager
       </a>
       .
     </p>

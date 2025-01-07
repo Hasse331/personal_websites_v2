@@ -15,7 +15,7 @@ const strategyBtn = { href: "/strategy", text: "My strategy" };
 const techStackButton = { href: "/techStack", text: "Full tech stack" };
 const expAndProjButton = {
   href: "https://github.com/Hasse331?tab=repositories",
-  text: "Full portfolio (GitHub)",
+  text: "My github repos",
 };
 
 const Index: React.FC = () => {
