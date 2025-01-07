@@ -14,10 +14,10 @@ export const projectsText: JSX.Element = (
     <p className="mb-4 text-justify" style={{ whiteSpace: "pre-line" }}>
       I have many projects and you can view most of them in my GitHub profile.
       Some of these projects are team projects, but most of my current projects
-      are my personal projects.
+      are personal.
     </p>
     <p>
-      Here is links for some of my live projects:{" "}
+      <strong>My live projects/demos: </strong>{" "}
       <a target="_blank" href="https://focusblock-ten.vercel.app">
         FocusBlock
       </a>
@@ -39,7 +39,7 @@ export const projectsText: JSX.Element = (
       (slow load).
     </p>
     <p className="mt-4">
-      Here is links for some of my public github project repos:{" "}
+      <strong>My public github repos: </strong>{" "}
       <a target="_blank" href="https://github.com/Hasse331/REAL">
         REAL
       </a>
@@ -58,7 +58,7 @@ export const projectsText: JSX.Element = (
       .
     </p>
     <p className="mt-4">
-      Here you can learn more about some of my private repos:{" "}
+      <strong>About some of my private repos:</strong>{" "}
       <a target="_blank" href="https://github.com/Hasse331/Projects">
         github projects repo
       </a>

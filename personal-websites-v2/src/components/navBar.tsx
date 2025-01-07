@@ -6,7 +6,7 @@ const NavBar = () => {
 
   return (
     <nav className=" text-white bg-slate-800">
-      <div className="max-w-5xl mx-auto px-4 flex justify-between">
+      <div className="max-w-2xl mx-auto px-4 flex justify-between">
         <Link className="no-underline" href="/" passHref>
           <p className={linkStyle}>Home</p>
         </Link>
