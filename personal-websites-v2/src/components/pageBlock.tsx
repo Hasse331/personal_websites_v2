@@ -21,7 +21,7 @@ export default function PageBlock({
           <Image
             className=" shadow-md"
             src={imageSrc}
-            width={800}
+            width={1000}
             height={800}
             alt={imageSrc}
           />
