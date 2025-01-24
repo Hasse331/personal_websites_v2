@@ -2,9 +2,36 @@ export const IntroductionText: JSX.Element = (
   <div>
     <p>
       Hello! My name is Hans. I&apos;m a computer science student at the
-      University Of Turku, Finland. My strengths are web development and
-      cross-platform development. My main programming languages are Typescript,
-      Dart, and Python but I am also familiar with other languages.{" "}
+      University Of Turku, Finland.
+    </p>
+    <br />
+    <p>
+      <strong>My main interests are: </strong> Software development (major in
+      CS) and business administration (minors in statistics and operations
+      management). I also have a deep interest in psychology and philosophy,
+      witch are essential in modern work life and the ethics of modern
+      technology and software development.
+    </p>
+    <p>
+      <strong> My tech skills: </strong> I&apos;m most proficient in modern
+      full-stack web development (TypeScript, React, Node.js, Python, FastAPI)
+      and cross-platform development (Dart, Flutter, Java). Programming
+      languages where I&apos;m most experienced are Typescript, Dart, and
+      Python, but I am also familiar with languages like Java and R.{" "}
+    </p>
+    <p>
+      <strong> My soft skills: </strong> the most important soft skill I have is
+      my drive to continually improve myself and learn new skills. That&apos;s
+      why I&apos;m also quick to adapt and am able to learn fast. But I also
+      value Stoic virtues and overall virtue etchics, which drive me to be
+      reasonable, take responsibility, be disciplined, brave and fair.
+    </p>
+    <p>
+      <strong> In my leisure: </strong> I believe that being active rather than
+      passive in leisure time is the best way to R&R (rest and relax). So I like
+      to do sports, mostly gym but also outdoors, be socially active and read.
+      Active working out is not only making me healthier and feel better, but
+      also making me more disciplined.
     </p>
   </div>
 );
