@@ -12,9 +12,9 @@ export default function RootLayout({
 }>) {
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       <main className={`${inter.className}`}>{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
